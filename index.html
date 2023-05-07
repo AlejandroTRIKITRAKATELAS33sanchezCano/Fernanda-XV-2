@@ -16,15 +16,15 @@
             <h1>Fernanda</h1>
             <h6>Mis XV</h6>
         </div>
+        </div>
         <input type="checkbox" id="check">
         <label for="check" class="mostrar-menu">
             &#8801
         </label>
         <nav id="menu33">
-            <a href="#">Inicio</a>
-            <a href="menu/Menu.html">Dónde & Cúando</a>
-            <a href="Servicios/Servicios.html">Fotos</a>
-            <a href="Reservaciones/Reservación.html">Confirmar Asistencia</a>
+            <a href="/">Inicio</a>
+            <a href="#Donde">Dónde & Cúando</a>
+            <a href="#Asistencia">Confirmar Asistencia</a>
             <a href="#MesaRegalos">Mesa De Regalos</a>
             <label for="check" class="esconder-menu">
                 &#215
@@ -35,12 +35,11 @@
         <div class="centrado">
             <h3>-Mis XV años-</h3>
             <h1>Fernanda</h1>
-            <div class="contador">
-                aqui van numeros
+            <div id="contador">
             </div>
         </div>
     </section>
-    <section class="donde-y-cuando">
+    <section class="donde-y-cuando" id="Donde">
         <h1>¿Dónde Y Cúando?</h1>
         <div class="cards">
             <div class="card">
@@ -75,27 +74,27 @@
             <h1>Mis Personas Favoritas</h1>
             <h3>¡Gracias Por Hacer Esto Posible!</h3>
 
-            <img src="./Assets/IMG/344393568_941867573821137_870755734862452790_n.jpg" alt="Una Persona">
+            <img src="/Assets/IMG/344393568_941867573821137_870755734862452790_n.jpg" alt="Una Persona">
             <h3>Ivvete Cano Hernández</h3>
             <h4>-Mi Mamá-</h4>
 
             
-            <img src="./Assets/IMG/344297589_781717780165830_8765696996785731959_n.jpg" alt="Una Persona">
+            <img src="/Assets/IMG/344297589_781717780165830_8765696996785731959_n.jpg" alt="Una Persona">
             <h3>Gloria Hernández Estrada</h3>
             <h4>-Mi Abuelita-</h4>
 
             
-            <img src="./Assets/IMG/344300630_3504716893147431_646486276955817685_n.jpg" alt="Una Persona">
+            <img src="/Assets/IMG/344300630_3504716893147431_646486276955817685_n.jpg" alt="Una Persona">
             <h3>Domink Leonardo Ortíz Cano</h3>
             <h4>-Mi Hermano-</h4>
 
-            <img src="./Assets/IMG/344300051_1450422405697479_8600607578850740939_n.jpg" alt="Una Persona">
+            <img src="/Assets/IMG/344300051_1450422405697479_8600607578850740939_n.jpg" alt="Una Persona">
             <h3>Norma Cano y Arturo Sánchez</h3>
             <h4>-Mis Padrinos-</h4>
         </div>
     </section>
     <section class="Mesa-regalos" id="MesaRegalos">
-        <h1>Mesa De Regalos</h1>
+        <h1 style="font-family: 'Pacifico', cursive;">Mesa De Regalos</h1>
         <h4>Tu presencia es mi mayor regalo, pero si deseas obsequiarme algo te adjunto una sugerencia</h4>
         <div class="container-card">
 	
@@ -119,12 +118,12 @@
     <section class="video">
         <img src="./Assets/IMG/LogoVideo.webp" alt="">
         <div class="botonVideo">
-            <a href="">Video</a>
+            <a href="https://www.youtube.com/watch?v=BDwEyfgClF4" style="font-family: 'Pacifico', cursive;">Video</a>
         </div>
         
     </section>
-    <section class="Mesa-regalos">
-        <h1>Confirmar Asistencia</h1>
+    <section class="Mesa-regalos" id="Asistencia">
+        <h1 style="font-family: 'Pacifico', cursive;">Confirmar Asistencia</h1>
         <h3>Numero De Contacto</h3>
 
         <center>
@@ -164,9 +163,11 @@
             <p>Todos los derechos reservados ©2023 <b>Cano's Code</b></p>
         </div>
     </footer>
-	    
-	    <audio autoplay>
+
+    <audio autoplay>
         <source src="./Assets/Audio/Tercer Cielo - No Crezcas Mas (Video Oficial).mp3">
     </audio>
+    <script src="./js/simpluCountDown.min.js"></script>
+    <script src="./js/countDown.js"></script>
 </body>
 </html>

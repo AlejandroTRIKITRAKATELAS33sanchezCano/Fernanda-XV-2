@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 * {
     padding: 0;
@@ -139,11 +140,18 @@ html {
 }
 
 .centrado h3 {
+    font-family: 'Pacifico', cursive;
     font-size: 2rem;
 }
 
 .centrado h1 {
     font-size: 4.5rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.contador{
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
 }
 
 /*Donde y Cuando*/
@@ -193,6 +201,7 @@ html {
 .card h1 {
     font-size: 30px;
     text-align: center;
+    font-family: 'Pacifico', cursive;
     color: var(--midnight-green);
 }
 
@@ -232,6 +241,7 @@ html {
 .Dress-Code h3 {
     font-size: 3rem;
     text-align: center;
+    font-family: 'Pacifico', cursive;
 }
 
 .Dress-Code img {
@@ -247,6 +257,7 @@ html {
 .card-Personas h1 {
     margin-top: 50px;
     color: var(--quinacridone-magenta);
+    font-family: 'Pacifico', cursive;
 }
 
 .card-Personas h3,
