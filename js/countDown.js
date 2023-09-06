@@ -1,7 +1,7 @@
 simplyCountdown('#contador', {
-    year: 2023, // required
-    month: 7, // required
-    day: 22, // required
+    year: 2025, // required
+    month: 9, // required
+    day: 5, // required
     hours: 17, // Default is 0 [0-23] integer
     minutes: 0, // Default is 0 [0-59] integer
     seconds: 0, // Default is 0 [0-59] integer
